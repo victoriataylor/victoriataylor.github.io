@@ -3,21 +3,10 @@
 body {
 	width: 100%;
 	font-family: "Source Sans Pro";
-	/*background-image:url("name.png"); */
-	background-color: white;
-	background-image: url("images/overlay.png"), white;
-	background-image: url("images/overlay.png"), white;
-	background-image: url("images/overlay.png"), white;
-	background-image: url("images/overlay.png"), white;*/
-/*	background-color: #935d8c;
-	background-image: url("images/overlay.png"), -moz-linear-gradient(45deg,  #aa80ff 15%, lightblue 85%);
-	background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #aa80ff 15%, lightblue 85%);
-	background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #aa80ff 15%, lightblue 85%);
-	background-image: url("images/overlay.png"), linear-gradient(45deg, #aa80ff 15%, lightblue 85%);*/
-/*	background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-	background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-	background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-	background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);*/
+	background-image: url("images/overlay.png"), -moz-linear-gradient(45deg,  white 15%, lightblue 85%);
+	background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, white 15%, lightblue 85%);
+	background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, white 15%, lightblue 85%);
+	background-image: url("images/overlay.png"), linear-gradient(45deg, white 15%, lightblue 85%);
 }
 .header {
 	position: relative;
@@ -31,8 +20,6 @@ body {
 	position: relative;
 	margin: 35px;
 	text-align: center;
-	background: white;
-	border-radius: 7px;
 }
 
 .thumbnail {
@@ -86,7 +73,6 @@ body {
 	margin: auto;
 }
 #lightbox #image-title {
-	/*display: block;*/
 	position: absolute;
 	padding: 5px;
 	width: 100%;
