@@ -1,11 +1,11 @@
 var flickrURL = "https://flickr.com/services/rest/?";
 var API_KEY = "d31a98ef82c3b756fc32bbd29099e9ff";
+var galleryID = "72157665057503822";
 
 window.onload = function(){
 	var lightbox = document.getElementById("lightbox");
 	var script = document.createElement('script');
 	script.type = 'text/javascript';
-	var galleryID = "72157665057503822";
 	script.async = true; 
 	script.src = flickrURL + "method=flickr.galleries.getPhotos&api_key=" + API_KEY + "&gallery_id=" + galleryID + "&jsoncallback=addPictures&format=json";
 	document.getElementsByTagName('head')[0].appendChild(script);
