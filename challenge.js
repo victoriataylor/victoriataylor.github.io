@@ -32,7 +32,7 @@ function addPictures(data){
 		//for clicking through images in lightbox view
 		photoArray[i] = {'title': photos[i].title, 'src': imgSrc + "_z.jpg"};	//larger img src
 
-		//opens lightbox view
+		//opens lightbox view 
 		container.addEventListener('click', function(event){
 			lightbox.style.display = "block";
 			var index = event.target.parentElement.getAttribute('imageNum');
